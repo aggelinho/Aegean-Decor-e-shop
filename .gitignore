@@ -1,4 +1,28 @@
+# Local WordPress configuration / secrets
+decor-shop/wp-config.php
+decor-shop/.user.ini
+.env
+.env.*
+!.env.example
 
-# WordPress backups
+# Database exports
+*.sql
+*.sql.gz
+
+# WordPress backups / migrations
 decor-shop/wp-content/ai1wm-backups/
 *.wpress
+
+# WordPress runtime data
+decor-shop/wp-content/cache/
+decor-shop/wp-content/wflogs/
+decor-shop/wp-content/uploads/wc-logs/
+
+# Logs / temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Academic / private source documents
+1084609_1070729.pdf
