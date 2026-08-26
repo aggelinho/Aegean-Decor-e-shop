@@ -1,0 +1,417 @@
+.br_setup_wizard table,
+.br_setup_wizard th,
+.br_setup_wizard td,
+.br_setup_wizard tr{
+    border: none!important;
+    background: transparent!important;
+    box-shadow: none!important;
+}
+
+.br_setup_wizard table select {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.berocket_wizard_autoselectors .berocket_autoselect_spin,
+.berocket_wizard_autoselectors .berocket_autoselect_ready,
+.berocket_wizard_autoselectors .berocket_autoselect_error {
+    font-size: 9px;
+}
+.berocket_wizard_autoselectors .berocket_autoselect_ready {
+    color: #33bb33;
+}
+.berocket_wizard_autoselectors .berocket_autoselect_error {
+    color: #bb3333;
+}
+.berocket_wizard_autoselectors .berocket_autoselector_load {
+    border: 1px solid #777;
+    height: 22px;
+    width: 300px;
+    margin-top: 10px;
+    position: relative;
+}
+.berocket_wizard_autoselectors .berocket_autoselector_load .berocket_line {
+    height: 100%;
+    background-color: #FF8800;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.berocket_wizard_autoselectors .berocket_autoselector_action {
+    position: relative;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 200;
+}
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselector.button,
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselector_seo.button,
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselector_stop.button {
+    margin-top:0;
+    margin-bottom:0;
+}
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselector_stop.button {
+    background-color: #ff5555;
+}
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselector_stop.button:hover {
+    background-color: #ee0000;
+}
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselect_spin,
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselect_ready,
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselect_error {
+    line-height: 22px;
+}
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselect_spin .fa,
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselect_ready .fa,
+.br_framework_submit_form .berocket_wizard_autoselectors .berocket_autoselect_error .fa {
+    vertical-align: middle;
+}
+.berocket_wizard_autoselectors ol li .fa-check {
+    color: #33bb33;
+}
+.berocket_wizard_autoselectors ol li .fa-times {
+    color: #bb3333;
+}
+.berocket_wizard_autoselectors_steps {
+    margin-top: 5px;
+}
+.berocket_wizard_autoselectors .berocket_autoselector_load,
+.berocket_wizard_autoselectors .berocket_autoselect_spin,
+.berocket_wizard_autoselectors .berocket_autoselector_stop {
+    vertical-align: middle;
+}
+
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps > span {
+    font-weight: bold;
+}
+
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps span,
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps ol li {
+    font-size: 14px;
+}
+
+.berocket_wizard_autoselectors h4,
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps span,
+.berocket_wizard_autoselectors ol,
+.berocket_wizard_autoselectors ol li {
+    margin: 0;
+    padding: 0;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps span {
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps ol li {
+    float: left;
+    display: inline-block;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps ol li + li:before {
+    content:">";
+    display: inline-block;
+    margin-right: 25px;
+    float: left;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps ol li.with-fa + li {
+    padding-left: 25px;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps ol li.with-fa + li:before {
+    content:"";
+    margin-right: 0;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_steps ol li .fa {
+    min-width: 16px;
+    font-size: 16px;
+}
+.berocket_wizard_autoselectors {
+    position: relative;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_popup {
+    position: absolute;
+    z-index: 10000;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px 20px 0 44px;
+    display: none;
+    top: -10px;
+    left: -10px;
+    min-height: 64px;
+}
+.berocket_wizard_autoselectors .berocket_wizard_popup_important {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 44px;
+    line-height: 1em;
+    width: 1em;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    color: red;
+}
+.berocket_wizard_autoselectors .berocket_wizard_autoselectors_popup h4 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+.berocket_framework_menu_selectors .button_container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.berocket_framework_menu_selectors .button_container input {
+    -webkit-appearance: initial;
+    height: 30px;
+    width: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border: 2px solid #e9e9e9;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.berocket_framework_menu_selectors .button_container input:focus {
+    border-color: #00beb0;
+    box-shadow: none;
+}
+.berocket_framework_menu_selectors .button_container input:checked {
+    background: #009688;
+    border-color: #009688 !important;
+    color: white;
+    position: relative;
+}
+.berocket_framework_menu_selectors .button_container input:hover {
+    border-color: #00beb0;
+}
+.berocket_framework_menu_selectors .button_container input:checked:before {
+    display: none;
+}
+.berocket_framework_menu_selectors .button_container input:checked:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 13px;
+    border: 0 solid white;
+    rotate: -43deg;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    left: 4px;
+    top: 6px;
+}
+.berocket_framework_menu_selectors .button_container input:disabled {
+    background-color: #eee;
+}
+.berocket_framework_menu_selectors .button_container input:disabled:hover {
+    border: 2px solid #e9e9e9;
+}
+.berocket_framework_menu_selectors .button_container input:checked:disabled {
+    background: #a5c0bd;
+    border-color: #a5c0bd !important;
+    color: white;
+    position: relative;
+}
+.berocket_framework_menu_selectors .button_container label {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-left: 10px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+
+.wizard_addons .berocket_addons_list .berocket_addon_block .berocket_addon_active {
+    display: flex;
+    border-width: 1em;
+    width: 8em;
+    height: 8em;
+    justify-content: center;
+    align-items: center;
+}
+.wizard_addons .berocket_addons_list .berocket_addon_block .berocket_addon_active .fa {
+    font-size: 3em;
+}
+.wizard_addons .berocket_addons_list .berocket_addon_block .berocket_addon_name {
+    text-shadow: 1px 1px 0 white;
+}
+.br_framework_settings .berocket_addons_list .framework-form-table > tbody > tr > td {
+    padding-top: 0;
+}
+.berocket_framework_menu_selectors .berocket_addons_list > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.berocket_framework_menu_selectors .berocket_addons_list .berocket_addon_label {
+    display: flex;
+    justify-self: center;
+    cursor: pointer;
+}
+@media screen and (max-width: 782px) {
+    .berocket_framework_menu_selectors .berocket_addons_list > div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 512px) {
+    .berocket_framework_menu_selectors .berocket_addons_list > div {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+.br_setup_wizard .wizard_plugins_install tbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.berocket_install_plugins_from_framework_td input,
+.berocket_install_plugins_from_framework_td .fa {
+    float: left;
+}
+.berocket_install_plugins_from_framework_td label,
+.berocket_install_plugins_from_framework_td label strong,
+.berocket_install_plugins_from_framework_td label span {
+    display: block;
+}
+.berocket_install_plugins_from_framework_td label {
+    display: flex;
+}
+.berocket_install_plugins_from_framework_td label img {
+    width: 128px;
+    margin-right: 20px;
+    height: 128px;
+    min-width: 128px;
+    min-height: 128px;
+}
+.berocket_install_plugins_from_framework_td label span:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.berocket_install_plugins_from_framework_td .button_container {
+    align-items: flex-start !important;
+}
+.berocket_install_plugins_from_framework_td .button_container label {
+    display: flex;
+}
+.berocket_install_plugins_from_framework_td .button_container .fa {
+    position: absolute;
+    top: 33px;
+    left: 5px;
+}
+@media screen and (max-width: 900px) {
+    .berocket_install_plugins_from_framework_td label img {
+        width: 80px;
+        margin-right: 20px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 782px) {
+    .br_setup_wizard .wizard_plugins_install tbody,
+    .br_setup_wizard .wizard_filters_create .framework-form-table tbody{
+        display: table;
+    }
+    .berocket_install_plugins_from_framework_td label img {
+        width: 100px;
+        height: 100px;
+    }
+    .br_setup_wizard_bottom_links {
+        font-size: 0;
+        line-height: 0;
+    }
+    .br_setup_wizard_bottom_links a {
+        font-size: 16px;
+        display: block;
+        line-height: 16px;
+    }
+    html .br_framework_settings.br_setup_wizard .br_setup_wizard_bottom_links {
+        bottom: 38px;
+        text-align: right;
+    }
+}
+@media screen and (max-width: 600px) {
+    .br_setup_wizard_bottom_links {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .br_setup_wizard_bottom_links a {
+        display: inline-block;
+    }
+    html .br_framework_settings.br_setup_wizard .br_setup_wizard_bottom_links {
+        bottom: 8px;
+        text-align: left;
+        left: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .berocket_install_plugins_from_framework_td label img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+.br_setup_wizard .wizard_filters_create tr td i.fa {
+    position: absolute;
+    right: 102%;
+}
+.br_setup_wizard .wizard_filters_create tr td i.fa:not(.fa-spinner) {
+    display: none;
+}
+.br_setup_wizard .wizard_filters_create .button_container select {
+    margin-left: 10px;
+}
+
+
+
+.br_setup_wizard .wizard_end .berocket_framework_menu_general-block {
+    padding-bottom: 4%;
+    text-align: center;
+}
+.br_setup_wizard .wizard_end h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.br_setup_wizard .wizard_end_content {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: justify;
+}
+.br_setup_wizard .wizard_end_content h2 {
+    text-align: center;
+}
+.br_setup_wizard .wizard_end_content .wizard_end_video {
+    text-align: center;
+}
+
+.br_setup_wizard .wizard_filters_create .framework-form-table tbody { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.wizard_filters_create .brwizard_create_filters_td > span {
+    display: block;
+}
+.br_setup_wizard .next-step .button {
+    vertical-align: top;
+    padding: 10px 30px !important;
+    margin: 10px 10px 10px 0 !important;
+    font-size: 18px !important;
+    line-height: 1.5em !important;
+}
+.br_setup_wizard .next-step .button:disabled,
+.br_setup_wizard .next-step a.brwiz_disabled_links {
+    background-color:#bbb;
+    box-shadow: none;
+    cursor: initial;
+}
+.br_setup_wizard a.brwiz_disabled_links {
+    cursor: default;
+}
+.brwiz_plugin_error {
+    color: #e00;
+    font-weight: 600;
+}

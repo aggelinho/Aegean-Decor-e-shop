@@ -1,0 +1,688 @@
+.woocommerce table.form-table table.wcp-table {
+	width: 100%;
+	background: #fff;
+	margin: 0 0 1.5em;
+	table-layout: fixed;
+
+	td.wcp-condition,
+	td.wcp-action {
+		width: 33%;
+	}
+
+	td.wcp-operator,
+	td.wcp-methods {
+		width: 33%;
+	}
+
+	td.wcp-values {
+		width: 32%;
+	}
+
+	td.wcp-remove {
+		width: 2%;
+		vertical-align: middle;
+		text-align: right;
+		vertical-align: top;
+
+		a.wcp-remove-row {
+			color: #646970;
+			text-decoration: none;
+	
+			&:focus {
+				outline: none;
+				box-shadow: none;
+			}
+
+			.dashicons {
+				line-height: 34px;
+			}
+		}
+	}
+
+	.select2-container {
+		min-width: 0 !important;
+		margin-bottom: 0 !important;
+		width: 100% !important;
+
+		.select2-selection__rendered {
+			line-height: 22px !important;
+			padding: 0 5px;
+
+			li {
+				margin: 5px 5px 0 0;
+			}
+		}
+
+		.select2-selection__choice {
+			line-height: 16px;
+		}
+
+		.select2-selection--single {
+			height: 32px !important;
+		}
+
+		.select2-search {
+			.select2-search__field {
+				line-height: 22px;
+				min-height: 22px;
+				min-width: auto;
+				padding: 0;
+			}
+		}
+	}
+
+	tr td {
+		vertical-align: middle;
+		margin: 0;
+		line-height: 24px;
+		padding: 1em;
+		border-bottom: 2px solid #f9f9f9;
+		vertical-align: top;
+	}
+
+	tbody {
+		tr:last-child {
+			td, th {
+				border-bottom: none;
+			}
+		}
+	}
+
+	tr.action_row .value_input,
+	tr.condition_row .value_input {
+		display: none;
+	}
+
+	.value_input {
+		width: 100%;
+
+		&.has-error {
+			border-color: #c92a2a;
+		}
+	}
+
+	select {
+		width: 100%;
+	}
+
+	textarea {
+		width: 100%;
+	}
+
+	tr th input[type="text"],
+	tr td input[type="text"],
+	tr th select,
+	tr td select {
+		max-width: 100%;
+		line-height: 32px;
+	}
+
+	.wcp-operator-inputs {
+		display: flex;
+		width: 100%;
+		flex-wrap: nowrap;
+
+		& > div {
+			flex: auto;
+			width: 50%;
+		}
+
+		.wcp_product_measurement_mode_input,
+		.wcp_subset_filter_input {
+			margin-right: 10px;
+		}
+	}
+
+	/* AND / OR select field */
+	select[name="wcp_operator"] {
+		line-height: 28px !important;
+		width: auto !important;
+	}
+
+	.wcp_text_value_input {
+		width: 100%;
+	}
+
+	tr.wcp-type-subtotal {
+		.wcp_subtotal_value_input {
+			display: block;
+			font-size: 12px;
+		}
+		.wcp_text_value_input { display: block; }
+	}
+
+	tr.wcp-type- select.wcp_operator_select { display: none; }
+	tr.wcp-type-products .wcp_product_value_input { display: block; }
+	tr.wcp-type-shipping_method .wcp_shipping_method_value_input { display: block; }
+	tr.wcp-type-customer_role .wcp_user_role_value_input { display: block; }
+	tr.wcp-type-groups .wcp_groups_value_input { display: block; }
+	tr.wcp-type-shipping_class .wcp_shipping_class_value_input { display: block; }
+	tr.wcp-type-product_cats .wcp_category_value_input { display: block; }
+	tr.wcp-type-product_tags .wcp_product_tag_value_input { display: block; }
+	tr.wcp-type-product_brands .wcp_product_brand_value_input { display: block; }
+	tr.wcp-type-product_types .wcp_product_type_value_input { display: block; }
+	tr.wcp-type-coupon .wcp_coupon_value_input { display: block; }
+	
+	tr.wcp-type-lang_polylang .wcp_lang_polylang_value_input { display: block; }
+	tr.wcp-type-lang_wpml .wcp_lang_wpml_value_input { display: block; }
+
+	tr.wcp-type-date .wcp_date_value_input { display: block; }
+
+	tr.wcp-type-ip_address .wcp_ip_address_value_input { display: block; }
+	
+	tr.wcp-type-billing_first_name.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-billing_last_name.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-billing_company.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-billing_address_1.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-billing_address_2.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-billing_postcode.wcp-operator-is .wcp_postcode_value_input { display: block; }
+	tr.wcp-type-billing_state .wcp_state_value_input { display: block; }
+	tr.wcp-type-billing_country .wcp_country_value_input { display: block; }
+	tr.wcp-type-currency .wcp_currency_value_input { display: block; }
+
+	tr.wcp-type-shipping_city,
+	tr.wcp-type-billing_city {
+		&.wcp-operator-is,
+		&.wcp-operator-isnot {
+			.wcp_city_value_input {
+				display: block;
+			}
+		}
+
+		&.wcp-operator-contains {
+			.wcp_text_value_input {
+				display: block;
+			}
+		}
+	}
+
+	tr.wcp-type-billing_email .wcp_billing_email_value_input { display: block; }
+	tr.wcp-type-billing_email.wcp-operator-exists .wcp_billing_email_value_input,
+	tr.wcp-type-billing_email.wcp-operator-notexists .wcp_billing_email_value_input { display: none; }
+	
+	tr.wcp-type-billing_phone .wcp_billing_phone_value_input { display: block; }
+	tr.wcp-type-billing_phone.wcp-operator-exists .wcp_billing_phone_value_input,
+	tr.wcp-type-billing_phone.wcp-operator-notexists .wcp_billing_phone_value_input { display: none; }
+
+	tr.wcp-type-shipping_first_name.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-shipping_last_name.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-shipping_company.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-shipping_address_1.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-shipping_address_2.wcp-operator-contains .wcp_text_value_input { display: block; }
+	tr.wcp-type-shipping_postcode.wcp-operator-is .wcp_postcode_value_input { display: block; }
+	tr.wcp-type-shipping_state .wcp_state_value_input { display: block; }
+	tr.wcp-type-shipping_country .wcp_country_value_input { display: block; }
+
+	/* Product meta */
+	tr.wcp-type-product_meta {
+		.wcp-condition {
+			.wcp-condition-inputs {
+				display: flex;
+				width: 100%;
+				flex-wrap: nowrap;
+
+				& > div {
+					flex: auto;
+					width: 50%;
+				}
+
+				.wcp_product_meta_key_input {
+					display: block;
+					margin-left: 10px;
+
+					.select2-container {
+						.select2-selection--single {
+							height: 34px !important;
+
+							.select2-selection__arrow {
+								height: 33px;
+							}
+						}
+
+						.select2-selection__rendered {
+							line-height: 34px !important;
+							padding-right: 24px !important;
+							padding-left: 8px !important;
+						}
+					}
+				}
+			}
+		}
+
+		// Display "highest", "lowest", "sum" options for
+		// numerical operators as well the value input
+		&.wcp-operator-gt, &.wcp-operator-gte, &.wcp-operator-lt,
+		&.wcp-operator-lte, &.wcp-operator-e {
+			.wcp_product_measurement_mode_input {
+				display: block;
+			}
+
+			.wcp_text_value_input {
+				display: block;
+			}
+		}
+
+		// Show textarea for textual values
+		&.wcp-operator-in, &.wcp-operator-exclusive,
+		&.wcp-operator-notin, &.wcp-operator-allin {
+			.wcp_textarea_value_input {
+				display: block;
+			}
+		}
+	}
+
+	tr.wcp-type-time .wcp_time_value_input {
+		display: flex;
+		flex-wrap: nowrap;
+
+		& > select {
+			flex: none;
+			width: auto;
+		}
+
+		& > span {
+			flex: none;
+			line-height: 34px;
+		}
+	}
+
+	tr.wcp-type-orders {
+		.wcp_text_value_input { display: block; }
+
+		.wcp_orders_value_input { display: block; font-size: 12px; }
+
+		.wcp_orders_status_input {
+			margin: 5px 0;
+		}
+	}
+
+	tr.wcp-type-stock_status .wcp_stock_status_value_input { display: block; }
+
+	tr.wcp-type-items .wcp_text_value_input { display: block; }
+
+	.wcp-match-by-name {
+		margin-top: 10px;
+		display: none;
+	}
+
+	.wcp-desc {
+		font-size: .9em;
+		color: #999;
+		font-style: italic;
+	}
+
+	.value_input .description {
+		font-size: .9em;
+		color: #999;
+		font-style: italic;
+	}
+
+	tr.action_row {
+		&.wcp-action-type- {
+			td.wcp-methods * {
+				display: none;
+			}
+		}
+
+		&.wcp-action-type-add_fee .wcp_fee_value_input {
+			display: block;
+
+			input,
+			select {
+				width: 100%;
+				margin-bottom: 5px;
+				display: block;
+			}
+
+			.wcp-fee-amount-inputs {
+				display: flex;
+				flex-wrap: nowrap;
+
+				input[type="number"] {
+					margin-right: 5px;
+					flex: auto;
+					width: 60% !important;
+					min-width: 0 !important;
+				}
+
+				select {
+					flex: auto;
+					width: 40%;
+				}
+			}
+		}
+
+		&.wcp-action-type-set_no_payments_methods_msg {
+			td.wcp-methods {
+				.select2,
+				select {
+					display: none;
+				}
+			}
+
+			.wcp_error_msg_input {
+				display: block;
+			}
+		}
+	}
+}
+
+table.wcp-rulesets {
+	margin-bottom: 30px;
+
+	td.wcp-ruleset-sort {
+		cursor: move;
+		font-size: 15px;
+		text-align: center;
+
+		&::before {
+			content: "\f333";
+			font-family: Dashicons;
+			text-align: center;
+			line-height: 1;
+			color: #999;
+			display: block;
+			width: 17px;
+			float: left;
+			height: 100%;
+			line-height: 24px;
+		}
+	}
+
+	td, th {
+		vertical-align: top;
+		line-height: 24px;
+		padding: 1em !important;
+		font-size: 14px;
+		background: #fff;
+
+		li {
+			line-height: 24px;
+			font-size: 14px;
+		}
+
+		.woocommerce-help-tip {
+			margin: 0 !important;
+		}
+
+	}
+
+	thead {
+		th {
+			vertical-align: middle;
+		}
+	}
+
+	tbody.wcp-ruleset-rows {
+		td {
+			border-top: 2px solid #f9f9f9;
+		}
+
+		tr:first-child {
+			td {
+				border-top: 0;
+			}
+		}
+	}
+
+	ul, p {
+		margin: 0;
+	}
+	
+	.wcp-ruleset-name {
+		.wcp-row-actions {
+			color: #a7aaad;
+			font-size: 13px;
+			padding: 2px 0 0;
+			visibility: hidden;
+		}
+
+		&:hover {
+			.wcp-row-actions {
+				visibility: visible;
+			}
+		}
+
+		a.wcp-ruleset-delete {
+			color: #a00;
+
+			&:hover {
+				color: red;
+			}
+		}
+	}
+
+	.wcp-ruleset-status {
+		.woocommerce-input-toggle {
+			cursor: pointer;
+		}
+	}
+
+	tfoot {
+		.button-secondary {
+			float: right;
+		}
+	}
+}
+
+.wcp-action-container {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	display: flex;
+	align-items: center;
+
+	select {
+		flex: auto;
+		width: auto;
+		display: block;
+	}
+
+	.wcp-action-help-tip {
+		flex: none;
+		cursor: pointer !important;
+		display: block;
+		margin-top: 0;
+
+		&::after {
+			cursor: pointer !important;
+		}
+	}
+}
+
+.wcp-actions-help-modal-container {
+	.ui-dialog-titlebar {
+		.ui-dialog-titlebar-close {
+			text-indent: -9999px;
+		}
+	}
+
+	#wcp-actions-help-modal {
+		table {
+			border: none;
+		
+			th {
+				font-weight: bold;
+				white-space: nowrap;
+				vertical-align: top;
+			}
+
+			.wcp-action-help {
+				font-style: italic;
+				
+				.dashicons-lightbulb {
+					color: #fab005;
+					font-size: 16px;
+				}
+
+				.dashicons-warning {
+					color: #fab005;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.ui-dialog-buttonpane button.ui-button {
+		padding: 6px;
+		height: auto;
+	}
+}
+
+
+/**
+ * Health check
+ */
+.woo-conditional-payments-health-check {
+	.issue-container {
+		margin-bottom: 10px;
+		line-height: 24px;
+		font-size: 14px;
+		background: #fff9db;
+		color: #91300a;
+		border: 1px solid #ffd8a8;
+		
+		
+		.title {
+			border-bottom: 1px solid #ffd8a8;
+			padding: 10px 20px;
+			font-weight: bold;
+			cursor: pointer;
+
+			.toggle-indicator {
+				&::before {
+					content: "\f140";
+					display: inline-block;
+					font: normal 20px/1 dashicons;
+					speak: none;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					text-decoration: none;
+					float: right;
+				}
+
+				&.open {
+					&::before {
+						content: "\f142";
+					}
+				}
+			}
+		}
+
+		.details {
+			display: none;
+			padding: 20px;
+
+			.fix {
+				margin-top: 10px;
+	
+				ul {
+					font-weight: normal;
+					list-style: disc;
+					padding-left: 20px;
+					margin: 10px 0 0;
+					
+					li {
+					}
+				}
+			}
+		}
+	}
+}
+
+/**
+ * Welcome form (Pro only)
+ */
+ #wcp-welcome-form {
+	background: #ffffff;
+	text-align: center;
+	padding: 2em;
+	margin: 2em 0 0;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+	border-radius: 4px;
+
+	.wcp-logo {
+		img {
+			display: inline-block;
+			max-height: 42px;
+			margin: 0 0 1em;
+		}
+	}
+
+	p {
+		line-height: 1.4;
+		font-size: 14px;
+	}
+
+	div.form-inputs {
+		margin: 1.5em 0 2.5em;
+		vertical-align: top;
+
+		input {
+			vertical-align: top;
+		}
+
+		input[type="text"] {
+			width: 300px;
+		}
+
+		.wcp-spinner {
+			background: url("../img/wpspin.gif") no-repeat center left;
+			width: 16px;
+			height: 30px;
+			line-height: 30px;
+			margin-left: 5px;
+			display: inline-block;
+			visibility: hidden;
+		}
+	}
+
+	.result {
+		.wcp-success {
+			color: #2b8a3e;
+		}
+
+		.wcp-error {
+			color: #c92a2a;
+		}
+	}
+}
+
+/**
+ * License status label (Pro only)
+ */
+.we-license-status-label {
+  color: #ffffff;
+  padding: 5px 7px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.we-license-status-label.license-ok {
+  background: #2b8a3e;
+  color: #ffffff;
+}
+
+.we-license-status-label.license-disabled {
+  background: #c92a2a;
+}
+
+.we-license-status-label.license-unknown {
+  background: #212529;
+}
+
+.we-license-error {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.we-license-last-checked {
+  color: #666666;
+  margin-top: 10px;
+}
+
+.we-license-renew {
+  margin-top: 10px;
+}
+

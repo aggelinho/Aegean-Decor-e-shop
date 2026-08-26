@@ -1,0 +1,574 @@
+/*
+Theme Name: House Decor
+Theme URI: https://themearile.com/house-decor-theme/
+Template: aasta
+Author: ThemeArile
+Author URI: https://themearile.com
+Description: House Decor is a modern multipurpose WordPress theme for interior design and architecture firms websites. It is the most demanding WordPress theme because the theme comes with an amazing design layout for interior and architecture designers. It also helps you to take your business to the next dream level. The theme is perfectly suited for architecture, interior design, decoration, business, furniture, home decor, construction, corporate, agency, business promotion, industries, beauty & spa salons, photography, gyms, restaurants, blogs, travel agencies, and many other websites compatible, You will have lots of options to consider. As well is also sophisticated plus it has some exotic features like customization and clean code, advanced typography, sticky menu, logo upload, header image, Bootstrap 4 framework, built with SEO in mind, and theme info area besides being Mobile-ready, translation ready (WPML, Polylang) and it's built to be beautiful on all screen sizes. This theme supports the best Elementor page builder to create, edit, and update page designs as per the requirement. House Decor also supports popular free and premium WordPress plugins such as Elementor, Yoast SEO, WooCommerce, Contact Form 7, Jetpack, Google Analytics, and much more. Check the demo of House Decor Pro https://themearile.com/aasta-pro-theme/.
+Version: 3.7
+Tested up to: 6.9
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: house-decor
+Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, portfolio
+*/
+
+/*--------------------------------------------------
+=>> Body Custom Background Css
+--------------------------------------------------*/
+
+body.custom-background .theme-bg-dark,
+body.custom-background .theme-bg-default, 
+body.custom-background .theme-blog.theme-bg-grey {
+    background-color: transparent !important;
+}
+
+body, #wrapper {
+    background-color: #292b32;
+}
+
+/*--------------------------------------------------
+=>> Typography Css
+--------------------------------------------------*/
+
+a:hover, a:active {
+    color: #fff;
+    outline: 0;
+}
+h1, .h1, h2, .h2, .h3, h3, h4, .h4, h5, .h5, .h6, h6 {
+	text-transform: uppercase;
+}
+.navbar .nav .menu-item .nav-link {
+    text-transform: uppercase;
+}
+.navbar .nav .menu-item .dropdown-item {
+    text-transform: uppercase;
+}
+.navbar .nav .menu-item .nav-link {
+    font-weight: 600;
+}
+.navbar .nav .menu-item .nav-link {
+    letter-spacing: 2px;
+}
+.navbar .nav .menu-item .dropdown-item {
+    font-weight: 600;
+}
+.navbar .nav .menu-item .dropdown-item {
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------------
+=>> Theme Main Slider
+--------------------------------------------------*/
+
+.theme-main-slider .overlay {
+    background-color: rgba(0,0,0,0.5);
+}
+#theme-main-slider .item {
+    height: 850px;
+}
+.theme-slider-content .theme-caption-bg2 .title-large {
+	font-size: 5rem;
+	line-height: 1; 
+	color: #ffffff; 
+	text-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);  
+	margin-bottom: 1.5625rem; 
+	letter-spacing: 1px;
+    text-transform: capitalize;	
+	font-weight: 500;
+}
+.theme-slider-content .theme-caption-bg2 .sub-title {
+    background-color: transparent;
+    color: #fff;
+    text-shadow: none;
+    display: inline-block;
+    padding: 0px 0px 0px 0.875rem;
+}
+@media (min-width: 992px) {
+	.theme-slider-content { 
+		top: 50%;
+	}
+}
+@media (max-width: 768px) { 
+	#theme-main-slider .item {
+		height: 550px;
+	}
+	.theme-slider-content .theme-caption-bg2 .title-large { 
+		font-size: 3.5rem; 
+		margin: 0 0 1.000rem; 
+	}	
+}
+@media (max-width: 500px) { 
+	.theme-slider-content .theme-caption-bg2 .title-large { font-size: 3rem; margin: 0 0 1.000rem; } 
+	.theme-slider-content .theme-caption-bg2 .sub-title { margin-bottom: 1.500rem; padding: 3px 5px 3px 11px; }
+	.theme-caption-bg, .theme-caption-bg2 { width: 100%; padding-left: 20px; padding-right: 20px; }	
+}
+
+
+/*--------------------------------------------------
+=>> Theme Service Area Three
+--------------------------------------------------*/
+
+.theme-services.vrsn-three .service-content {
+    margin-top: 0;
+	border: 1px solid #333;
+    background-color: #292b32;
+}
+.theme-services.vrsn-three .service-content::before {
+    height: unset;
+    position: relative;
+}
+.theme-services.vrsn-three .service-content:hover {
+	transform: translateY(-5px);
+	-webkit-box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+}
+.theme-services.vrsn-three .service-content-thumbnail {
+	margin-top: 0px;
+}
+.theme-services.vrsn-three .service-content:hover .service-content-thumbnail img {
+	-webkit-filter: unset;
+   filter: unset;
+}
+.theme-services.vrsn-three .service-content-thumbnail img {
+    width: 10.938rem;
+    height: 10.938rem;
+}
+.theme-services.vrsn-three .service-content-thumbnail i.fa {
+    font-size: 7rem;
+    line-height: 1.5;
+    width: 10.938rem;
+    height: 10.938rem;
+}
+.theme-services.vrsn-three .service-content:hover .service-content-thumbnail a,
+.theme-services.vrsn-three .service-content:hover .service-content-thumbnail i.fa {
+	color: #ffffff;
+}
+.theme-services.vrsn-three .service-title a:hover, 
+.theme-services.vrsn-three .service-title afocus,
+.theme-services.vrsn-three .service-content:hover .service-title a, 
+.theme-services.vrsn-three .service-content:focus .service-title a, 
+.theme-services.vrsn-three .service-content:hover .service-title {
+    color: #fff;
+}
+.theme-services.vrsn-three .service-content:hover p {
+	color: #fff;
+}
+.theme-services.vrsn-three .service-links a {
+    color: #fff;
+    display: inline-block;
+	font-weight: 500;
+}
+.theme-services.vrsn-three .service-content:hover .service-links a, 
+.theme-services.vrsn-three .service-content:focus .service-links a {
+	background: #fff;
+	border: 1px solid #fff;
+	color: #333333;
+}
+.theme-services.vrsn-three .service-content-thumbnail img {
+	    width: auto;
+    height: auto;
+    border-radius: 0;
+}
+.theme-services.vrsn-three .service-content:hover .service-content-thumbnail img {
+    -webkit-transform: unset;
+    -moz-transform: unset;
+    -o-transform: unset;
+    -ms-transform: unset;
+}
+
+/*--------------------------------------------------
+=>> Theme Project Area   
+--------------------------------------------------*/
+
+.theme-project .row.theme-project-row {
+	margin-right: 0;
+    margin-left: 0;
+}
+
+/*--------------------------------------------------
+=>> Theme Testimonial
+--------------------------------------------------*/
+
+.theme-testimonial.vrsn-three .theme-testimonial-overlay {
+    background-color: rgba(0, 0, 0, .40);
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block:before {
+	display: none;
+}
+.theme-testimonial.vrsn-three .testimonial-content.vrsn-two {
+	padding: 4.5rem 2.5rem 2.5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	border-radius: 0;
+}
+.theme-testimonial.vrsn-three .testimonial-content.vrsn-two:hover {
+	transform: translateY(-7px);
+	-webkit-box-shadow: 0 3px 15px 0 rgb(0 0 0 / 2%);
+	-moz-box-shadow: 0 3px 15px 0 rgb(0 0 0 / 2%);
+	box-shadow: 0 3px 15px 0 rgb(0 0 0 / 2%);
+}
+.theme-testimonial.vrsn-three .testimonial-content.vrsn-two::before {
+	position: absolute;
+    font-family: "FontAwesome";
+    content: "\f10d";
+    border-color: transparent;
+    top: 10px;
+    left: 45%;
+    right: 0;
+    display: block;
+    padding: 0;
+    font-size: 2.5rem;
+    color: #fff;
+    border-width: 0;
+    border-style: none;
+}
+.theme-testimonial.vrsn-three .testimonial-content.vrsn-two:after {
+	content: '';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    z-index: 1;
+    -webkit-transform: translateX(-50%) rotate(125deg) skew(-20deg);
+    -ms-transform: translateX(-50%) rotate(125deg) skew(-20deg);
+    transform: translateX(-50%) rotate(125deg) skew(-20deg);
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block p {
+    color: #ffffff !important;
+	font-size: 1.125rem;
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block.vrsn-two .media {
+	display: block;
+    text-align: center;
+	margin-left: 0;
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block.vrsn-two .thumbnail {
+    margin: 0 auto 1.25rem;
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block.vrsn-two .thumbnail img {
+    margin: 0;
+    width: 5rem;
+    height: 5rem;
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block .name {
+    font-size: 1.125rem;
+}
+.theme-testimonial.vrsn-three .theme-testimonial-block .position {
+    font-size: 1rem;
+}
+
+/*--------------------------------------------------
+=>> Theme Blog Area - Homepage Three
+--------------------------------------------------*/
+
+.theme-blog .post { 
+	background-color: #34363e;
+	margin: 0 0 2.5rem; 
+	border-radius: 0px;
+	border: 1px solid #34363e;
+	padding: 0; 
+	transition: all 0.5s;
+}
+.theme-blog .post:hover {
+    background-color: #34363e;
+    border: 1px solid #34363e;
+}
+.entry-content a:hover, .entry-content a:focus {
+    color: #333;
+}
+.theme-blog .post .entry-title a {
+    color: #fff;
+}
+.theme-blog.vrsn-three .post-thumbnail {
+	padding: 1.375rem 1.375rem 0rem;
+}
+.theme-blog.vrsn-three .post-thumbnail img {
+    border-bottom: 4px solid transparent;
+	transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    transform: scale(1.0);
+}
+.theme-blog.vrsn-three .post:hover .post-thumbnail img {
+	transform: scale(1.0);
+}
+.theme-blog.vrsn-three .media {
+	display: block;
+}
+.theme-blog.vrsn-three .media .posted-on {
+    width: auto;
+	display: inline-block;
+    margin-bottom: 0.938rem;
+	margin-right: 0;
+}
+.theme-blog.vrsn-three .media .posted-on time.days {
+	background-color: #4d4f56;
+    border: 1px dotted #828385;
+    padding-top: 0.188rem;
+    font-size: 1.2rem;
+    width: auto;
+    text-align: left;
+    padding-left: 0.75rem;
+    padding-right: 1.563rem;
+    display: inline-block;
+    padding-bottom: 0.188rem;
+    color: #fff;
+    border-radius: 0;
+}
+.theme-blog.vrsn-three .media .posted-on time.days small.months {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0;
+    width: 70px;
+    margin-left: 0.938rem;
+	color: #fff;
+}
+
+/*-----------------------------------------------------
+=>> Sidebar Widget Style Css According to WordPress 6.0
+-----------------------------------------------------*/
+
+.sidebar .widget .wp-block-group .wp-block-verse {
+	margin-bottom: 0;
+}
+.sidebar .widget .wp-block-group .wp-block-quote {
+	margin-bottom: 0;
+}
+.sidebar .widget .wp-calendar-table thead th {
+    border: 2px solid #5B5D64;
+    background-color: #5B5D64;
+	color: #fff;
+}
+.sidebar .widget .wp-calendar-table tbody td {
+	border: 1px solid #5B5D64;
+}
+.sidebar .widget .wp-block-calendar table caption {
+	text-align: center;
+}
+.sidebar .widget .wp-block-group .wp-block-tag-cloud a {
+    background-color: #5b5d64;
+    border: 1px solid #5b5d64;
+    color: #e5e5e5;
+    font-size: 0.875rem !important;
+    display: inline-block;
+    padding: 0.313rem 0.813rem;
+    margin: 0 0.125rem 0.438rem 0px;
+    border-radius: 0px;
+}
+.sidebar .widget .wp-block-group .wp-block-button .wp-block-button__link {
+	background: #5B5D64;
+    border: 2px solid #5B5D64;
+    color: #fff !important;
+}
+.sidebar .widget .wp-block-group ul.wp-block-rss {
+	margin-left: 0;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-comments li.wp-block-latest-comments__comment, 
+.sidebar .widget .wp-block-group .wp-block-latest-posts.wp-block-latest-posts__list li, 
+.sidebar .widget .wp-block-group .wp-block-page-list li.wp-block-pages-list__item, 
+.sidebar .widget .wp-block-group ul.wp-block-rss li, 
+.sidebar .widget .wp-block-group ul.wp-block-archives-list li {
+	padding-top: 0.4375rem; 
+    padding-bottom: 0.4375rem; 
+    border-bottom: 1px dotted #5b5d64;
+	margin-bottom: 0;
+}
+.sidebar .widget .wp-block-group ul.wp-block-page-list,
+.sidebar .widget .wp-block-group ul.wp-block-page-list li ul.submenu-container,
+.sidebar .widget .wp-block-group ul.wp-block-categories-list {
+	margin-left: 0;
+    list-style: none;
+}
+.sidebar .widget .wp-block-group .wp-block-image, 
+.sidebar .widget .wp-block-group .wp-block-image figcaption {
+    margin-bottom: 0;
+}
+.sidebar .widget .wp-block-group .wp-block-preformatted {
+    background: #292b32;
+    color: #e5e5e5;
+}
+.theme-blog .post .mejs-controls a.mejs-horizontal-volume-slider {
+	color: transparent;
+}
+.theme-blog .post .entry-content ul:last-child {
+	margin-bottom: 0;
+}
+.theme-blog .post .entry-content ol.wp-block-latest-comments {
+	padding-left: 2rem;
+}
+.theme-blog .post .entry-content ul.wp-block-archives {
+	margin-left: 1.125rem;
+    list-style: disc;
+	padding-left: 1.5rem;
+}
+.sidebar .widget .wp-block-pullquote cite {
+	z-index: 1;
+}
+.sidebar .widget .wp-block-quote p {
+    z-index: 1;
+    position: relative;
+}
+.sidebar .widget .wp-block-quote cite {
+	z-index: 1;
+	position: relative;
+}
+.theme-blog .post .entry-content ul li {
+	margin-bottom: 10px;
+}
+.theme-blog .post .entry-content ul li:last-child {
+	margin-bottom: 0;
+}
+.theme-blog .post .entry-content ol li {
+	margin-bottom: 10px;
+}
+.theme-blog .post .entry-content ol li:last-child {
+	margin-bottom: 0;
+}
+.sidebar .widget .wp-block-group ul li,
+.sidebar .widget .wp-block-group ol li {
+    padding-bottom: 0.625rem;
+}
+.comment-form .form-submit {
+    padding-bottom: 0;
+}
+.theme-blog .post .entry-content ul {
+    padding-left: 1.125rem;
+}
+.theme-blog .post .entry-content ol {
+    padding-left: 1.125rem;
+}
+.sidebar .widget .wp-block-group .wp-block-latest-posts li a {
+   font-weight: 600;
+}
+.theme-blog .post .entry-content ul.wp-block-post-template li.wp-block-post {
+    border: none;
+    margin-bottom: 1.5rem;
+}
+.theme-blog .post .entry-content ul.wp-block-post-template li.wp-block-post:hover {
+	box-shadow: none;
+}
+.theme-blog .post .entry-content ul.wp-block-post-template li.wp-block-post .wp-block-post-date {
+    padding-bottom: 1.2rem;
+}
+.theme-blog .post .entry-content ul.wp-block-latest-posts {
+	list-style: disc;
+}
+.theme-blog .post .wp-block-query-pagination {
+	margin-bottom: 1.5rem;
+}
+.theme-blog .post .entry-content .wp-block-social-links {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.theme-blog .post .entry-content .wp-block-social-links .wp-social-link:last-child {
+	margin-bottom: 10px;
+}
+.theme-blog .post .entry-content .wp-block-social-links .wp-social-link a {
+	box-shadow: none;
+}
+.theme-blog .post .entry-content .wp-block-social-links .wp-social-link a svg path {
+  fill: #fff;
+}
+.sidebar .widget .wp-block-group .wp-block-details summary {
+    margin-bottom: 1rem;
+}
+.wp-block-latest-posts li .wp-block-latest-posts__post-date {
+    padding-top: 0.525rem;
+}
+.theme-blog .post ol.wp-block-latest-comments .wp-block-latest-comments__comment {
+    border-bottom: 1px solid #5B5D64;
+	margin-bottom: 1rem;
+}
+.theme-blog .post .entry-content .wp-block-list li a {
+	font-weight: 600;
+}
+.sidebar .widget .wp-block-accordion-heading .wp-block-accordion-heading__toggle:hover,
+.sidebar .widget .wp-block-accordion-heading .wp-block-accordion-heading__toggle:focus {
+	border: 0px solid transparent;
+	background-color: transparent;
+	color: #fff;
+}
+
+/*------------------------------------------------------------
+=>> Footer Sidebar Widget Style Css According to WordPress 6.0
+------------------------------------------------------------*/
+
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments li.wp-block-latest-comments__comment, 
+.footer-sidebar .widget .wp-block-group .wp-block-latest-posts.wp-block-latest-posts__list li, 
+.footer-sidebar .widget .wp-block-group .wp-block-page-list li.wp-block-pages-list__item, 
+.footer-sidebar .widget .wp-block-group ul.wp-block-rss li, 
+.footer-sidebar .widget .wp-block-group ul.wp-block-archives-list li, 
+.footer-sidebar .widget .wp-block-group ul.wp-block-categories-list li {
+	padding-top: 0.4375rem; 
+    padding-bottom: 0.4375rem; 
+    border-bottom: 1px dotted #5b5d64;
+	margin-bottom: 0;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-posts.wp-block-latest-posts__list li:before, 
+.footer-sidebar .widget .wp-block-group .wp-block-page-list li:before, 
+.footer-sidebar .widget .wp-block-group ul.wp-block-archives-list li:before,
+.footer-sidebar .widget .wp-block-group ul.wp-block-categories-list li:before {
+	font-family: FontAwesome;
+    color: #e5e5e5;
+    content: "\f096";
+    font-size: 0.625rem;
+    font-weight: 400;
+    margin-right: 0.625rem;
+    vertical-align: middle;
+}
+.footer-sidebar .widget .wp-block-group ul.wp-block-rss {
+	margin-left: 0;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments article {
+    margin-bottom: 0rem;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments li.wp-block-latest-comments__comment {
+	padding-top: 0.7375rem;
+    padding-bottom: 0.7375rem;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-latest-comments .wp-block-latest-comments__comment .wp-block-latest-comments__comment-date {
+	padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+	font-size: 0.875rem;
+}
+.footer-sidebar .widget .wp-block-group pre.wp-block-verse {
+    background-color: #5b5d64;
+    color: #fff;
+}
+.footer-sidebar .widget .wp-block-pullquote cite {
+	z-index: 1;
+}
+.footer-sidebar .widget .wp-block-quote cite {
+    z-index: 1;
+    position: relative;
+}
+.footer-sidebar .widget .wp-block-quote p {
+    z-index: 1;
+    position: relative;
+}
+.footer-sidebar .widget .wp-block-group .wp-block-details p {
+	margin-top: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.102);
+}
+
+/*--------------------------------------------------
+=>> Theme Blog Single Area
+--------------------------------------------------*/
+
+.post .post-password-form input[type="password"] {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+.theme-blog .post ul.wp-block-rss { 
+	list-style: disc;
+}

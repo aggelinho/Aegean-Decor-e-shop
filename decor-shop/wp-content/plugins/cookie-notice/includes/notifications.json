@@ -1,0 +1,83 @@
+{
+	"_meta": {
+		"version": 1,
+		"rangeConvention": "usagePercent ranges are [inclusive, exclusive). null = unbounded. Example: [70, 100] means >= 70% AND < 100%.",
+		"templateVariables": "{sessionTotal}, {sessionUsed}, {usagePercent} — interpolated at render time with locale-formatted numbers."
+	},
+	"rules": [
+		{
+			"id": "threshold-locked",
+			"type": "critical",
+			"priority": 100,
+			"slot": "topBar",
+			"condition": { "tier": "free", "usagePercent": [ 100, null ] },
+			"title": "Action Required: Visit limit reached",
+			"description": "Your site has exceeded its free monthly limit of {sessionTotal} visits. Cookie autoblocking is now disabled, which means tracking scripts may fire before visitors consent. Upgrade to Pro immediately to restore full compliance protection.",
+			"cta": { "label": "Upgrade to Pro \u2192", "action": "openPricingModal" },
+			"dismissible": false,
+			"icon": "error"
+		},
+		{
+			"id": "threshold-warning",
+			"type": "warning",
+			"priority": 80,
+			"slot": "topBar",
+			"condition": { "tier": "free", "usagePercent": [ 70, 100 ] },
+			"title": "Approaching your visit limit",
+			"description": "Your site is nearing its free monthly limit ({sessionUsed} / {sessionTotal} visits). If you exceed the limit, cookie autoblocking will be disabled. Upgrade to Pro now for unlimited coverage.",
+			"cta": { "label": "Upgrade to Pro \u2192", "action": "openPricingModal" },
+			"dismissible": true,
+			"icon": "warning"
+		},
+		{
+			"id": "generic-upsell",
+			"type": "info",
+			"priority": 20,
+			"slot": "topBar",
+			"condition": { "tier": "free" },
+			"title": "Upgrade for unlimited coverage",
+			"description": "Free protects up to {sessionTotal} visits/month. Upgrade to Pro for unlimited visits, geo-targeting, and extended consent logs.",
+			"cta": { "label": "Upgrade to Pro \u2192", "action": "openPricingModal" },
+			"dismissible": true,
+			"icon": "info"
+		},
+		{
+			"id": "sidebar-threshold",
+			"type": "warning",
+			"priority": 90,
+			"slot": "sidebar",
+			"condition": { "tier": "free", "usagePercent": [ 70, null ] },
+			"headline": "Restore protection",
+			"features": [
+				"Remove the visit limit",
+				"Geo-targeted consent",
+				"Extended consent logs"
+			],
+			"cta": { "label": "Upgrade to Pro \u2192", "action": "openPricingModal" }
+		},
+		{
+			"id": "sidebar-generic",
+			"type": "info",
+			"priority": 10,
+			"slot": "sidebar",
+			"condition": { "tier": "free" },
+			"headline": "Unlock unlimited compliance",
+			"features": [
+				"Unlimited visits",
+				"Geo-targeted consent",
+				"Extended consent logs"
+			],
+			"cta": { "label": "Upgrade to Pro \u2192", "action": "openPricingModal" }
+		},
+		{
+			"id": "dashboard-near-limit",
+			"type": "warning",
+			"priority": 80,
+			"slot": "wpDashboard",
+			"condition": { "tier": "free", "usagePercent": [ 70, null ] },
+			"title": "Approaching your visit limit",
+			"description": "You\u2019ve used {usagePercent}% of your monthly limit. Autoblocking will be disabled and consent records will not be stored once you reach your limit.",
+			"cta": { "label": "Upgrade to Professional \u2192", "action": "openPricingModal" }
+		}
+	]
+}

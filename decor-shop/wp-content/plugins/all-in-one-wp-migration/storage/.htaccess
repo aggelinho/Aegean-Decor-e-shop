@@ -1,0 +1,25 @@
+<IfModule mod_authz_core.c>
+	<FilesMatch ".*">
+		Require all denied
+	</FilesMatch>
+	<FilesMatch "\.log$">
+		Require all granted
+	</FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order allow,deny
+	Deny from all
+	<FilesMatch "\.log$">
+		Order allow,deny
+		Allow from all
+	</FilesMatch>
+</IfModule>
+<IfModule mod_mime.c>
+	AddType text/plain .log
+</IfModule>
+<IfModule mod_dir.c>
+	DirectoryIndex index.php
+</IfModule>
+<IfModule mod_autoindex.c>
+	Options -Indexes
+</IfModule>

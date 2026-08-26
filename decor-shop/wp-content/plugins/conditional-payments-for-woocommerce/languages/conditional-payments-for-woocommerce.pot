@@ -1,0 +1,1002 @@
+# Copyright (C) 2020 Lauri Karisola / WooElements.com
+# This file is distributed under the same license as the Conditional Payments for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Conditional Payments for WooCommerce 2.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/conditional-payments-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-27T16:40:55+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: woo-conditional-payments\n"
+
+#. Plugin Name of the plugin
+msgid "Conditional Payments for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Disable payment methods based on shipping methods, customer address and much more."
+msgstr ""
+
+#. Author of the plugin
+msgid "Lauri Karisola / WooElements.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wooelements.com"
+msgstr ""
+
+#: trunk/includes/admin/class-woo-conditional-payments-admin.php:38
+#: trunk/includes/admin/class-woo-conditional-payments-admin.php:76
+#: trunk/includes/admin/class-woo-conditional-payments-admin.php:200
+#: trunk/includes/admin/views/ruleset.html.php:9
+#: trunk/includes/admin/views/ruleset.html.php:42
+#: trunk/includes/admin/views/settings.html.php:8
+#: tags/2.0.2/includes/admin/class-woo-conditional-payments-admin.php:41
+#: tags/2.0.2/includes/admin/class-woo-conditional-payments-admin.php:126
+#: tags/2.0.2/includes/admin/class-woo-conditional-payments-admin.php:250
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:9
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:42
+#: tags/2.0.2/includes/admin/views/settings.html.php:8
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:302
+#: tags/2.1.4/includes/admin/class-woo-conditional-payments-admin.php:38
+#: tags/2.1.4/includes/admin/class-woo-conditional-payments-admin.php:76
+#: tags/2.1.4/includes/admin/class-woo-conditional-payments-admin.php:200
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:9
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:42
+#: tags/2.1.4/includes/admin/views/settings.html.php:8
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:302
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:302
+#: tags/2.0.1/includes/admin/class-woo-conditional-payments-admin.php:41
+#: tags/2.0.1/includes/admin/class-woo-conditional-payments-admin.php:126
+#: tags/2.0.1/includes/admin/class-woo-conditional-payments-admin.php:247
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:9
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:31
+#: tags/2.0.1/includes/admin/views/settings.html.php:8
+#: tags/2.0.0/includes/admin/class-woo-conditional-payments-admin.php:41
+#: tags/2.0.0/includes/admin/class-woo-conditional-payments-admin.php:126
+#: tags/2.0.0/includes/admin/class-woo-conditional-payments-admin.php:247
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:9
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:31
+#: tags/2.0.0/includes/admin/views/settings.html.php:8
+#: tags/2.1.5/includes/admin/class-woo-conditional-payments-admin.php:38
+#: tags/2.1.5/includes/admin/class-woo-conditional-payments-admin.php:76
+#: tags/2.1.5/includes/admin/class-woo-conditional-payments-admin.php:200
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:9
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:42
+#: tags/2.1.5/includes/admin/views/settings.html.php:8
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:302
+#: includes/admin/class-woo-conditional-payments-admin.php:36
+#: includes/admin/class-woo-conditional-payments-admin.php:82
+#: includes/admin/views/ruleset.html.php:9
+#: includes/admin/views/ruleset.html.php:42
+#: includes/admin/views/settings.html.php:8
+msgid "Conditions"
+msgstr ""
+
+#: trunk/includes/admin/class-woo-conditional-payments-admin.php:43
+#: tags/2.0.2/includes/admin/class-woo-conditional-payments-admin.php:46
+#: tags/2.1.4/includes/admin/class-woo-conditional-payments-admin.php:43
+#: tags/2.0.1/includes/admin/class-woo-conditional-payments-admin.php:46
+#: tags/2.0.0/includes/admin/class-woo-conditional-payments-admin.php:46
+#: tags/2.1.5/includes/admin/class-woo-conditional-payments-admin.php:43
+#: includes/admin/class-woo-conditional-payments-admin.php:41
+msgid "Go Pro"
+msgstr ""
+
+#: trunk/includes/admin/class-woo-conditional-payments-admin.php:203
+#: tags/2.0.2/includes/admin/class-woo-conditional-payments-admin.php:253
+#: tags/2.1.4/includes/admin/class-woo-conditional-payments-admin.php:203
+#: tags/2.0.1/includes/admin/class-woo-conditional-payments-admin.php:250
+#: tags/2.0.0/includes/admin/class-woo-conditional-payments-admin.php:250
+#: tags/2.1.5/includes/admin/class-woo-conditional-payments-admin.php:203
+msgid "As of version 2.0.0 conditions are moved to <a href=\"%s\">separate settings page</a>."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:20
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:20
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:20
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:20
+#: includes/admin/views/ruleset.html.php:20
+msgid "Enable / Disable"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:25
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:25
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:25
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:25
+#: includes/admin/views/ruleset.html.php:25
+msgid "Enable ruleset"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:31
+#: trunk/includes/admin/views/ruleset.html.php:36
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:31
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:36
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:31
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:36
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:20
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:25
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:20
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:25
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:31
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:36
+#: includes/admin/views/ruleset.html.php:31
+#: includes/admin/views/ruleset.html.php:36
+msgid "Ruleset name"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:32
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:32
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:32
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:21
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:21
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:32
+#: includes/admin/views/ruleset.html.php:32
+msgid "This is the name of the ruleset for your reference."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:43
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:43
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:43
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:32
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:32
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:43
+#: includes/admin/views/ruleset.html.php:43
+msgid "The following conditions define whether or not actions are run."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:58
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:58
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:500
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:58
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:500
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:500
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:47
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:47
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:58
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:500
+#: includes/admin/views/ruleset.html.php:58
+msgid "Add Condition"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:59
+#: trunk/includes/admin/views/ruleset.html.php:89
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:59
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:89
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:501
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:59
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:89
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:501
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:501
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:48
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:78
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:48
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:78
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:59
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:89
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:501
+#: includes/admin/views/ruleset.html.php:59
+#: includes/admin/views/ruleset.html.php:89
+msgid "Remove Selected"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:66
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:66
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:66
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:55
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:55
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:66
+#: includes/admin/views/ruleset.html.php:66
+msgid "More conditions available in <a href=\"%s\" target=\"_blank\">the Pro version</a>."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:74
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:74
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:74
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:63
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:63
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:74
+#: includes/admin/views/ruleset.html.php:74
+msgid "Actions"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:75
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:75
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:75
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:64
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:64
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:75
+#: includes/admin/views/ruleset.html.php:75
+msgid "Actions which are run if all conditions pass."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:88
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:88
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:88
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:77
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:77
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:88
+#: includes/admin/views/ruleset.html.php:88
+msgid "Add Action"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:95
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:95
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:95
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:84
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:84
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:95
+#: includes/admin/views/ruleset.html.php:95
+msgid "<strong>Enable payment methods</strong>: Payment methods will be enabled if all conditions pass. If conditions do not pass, payment methods will be disabled."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:96
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:96
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:96
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:85
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:85
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:96
+#: includes/admin/views/ruleset.html.php:96
+msgid "<strong>Disable payment methods</strong>: Payment methods will be disabled if all conditions pass."
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:104
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:104
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:104
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:93
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:93
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:104
+#: includes/admin/views/ruleset.html.php:104
+msgid "Save changes"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:161
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:155
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:161
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:144
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:144
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:161
+#: includes/admin/views/ruleset.html.php:161
+msgid "Subtotal includes coupons"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:322
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:316
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:322
+#: tags/2.0.1/includes/admin/views/ruleset.html.php:305
+#: tags/2.0.0/includes/admin/views/ruleset.html.php:305
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:322
+#: includes/admin/views/ruleset.html.php:329
+msgid "Payment methods"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:335
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:329
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:335
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:335
+#: includes/admin/views/ruleset.html.php:342
+msgid "Fee description"
+msgstr ""
+
+#: trunk/includes/admin/views/ruleset.html.php:336
+#: tags/2.0.2/includes/admin/views/ruleset.html.php:330
+#: tags/2.1.4/includes/admin/views/ruleset.html.php:336
+#: tags/2.1.5/includes/admin/views/ruleset.html.php:336
+#: includes/admin/views/ruleset.html.php:343
+msgid "Amount"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:9
+#: tags/2.0.2/includes/admin/views/settings.html.php:9
+#: tags/2.1.4/includes/admin/views/settings.html.php:9
+#: tags/2.0.1/includes/admin/views/settings.html.php:9
+#: tags/2.0.0/includes/admin/views/settings.html.php:9
+#: tags/2.1.5/includes/admin/views/settings.html.php:9
+#: includes/admin/views/settings.html.php:9
+msgid "Add ruleset"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:13
+#: tags/2.0.2/includes/admin/views/settings.html.php:13
+#: tags/2.1.4/includes/admin/views/settings.html.php:13
+#: tags/2.0.1/includes/admin/views/settings.html.php:13
+#: tags/2.0.0/includes/admin/views/settings.html.php:13
+#: tags/2.1.5/includes/admin/views/settings.html.php:13
+#: includes/admin/views/settings.html.php:13
+msgid "Rulesets are used to modify payment method availability. Each ruleset contains conditions and actions which are applied to payment method(s)."
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:19
+#: trunk/includes/class-woo-conditional-payments-ruleset.php:41
+#: tags/2.0.2/includes/admin/views/settings.html.php:19
+#: tags/2.0.2/includes/class-woo-conditional-payments-ruleset.php:41
+#: tags/2.1.4/includes/admin/views/settings.html.php:19
+#: tags/2.1.4/includes/class-woo-conditional-payments-ruleset.php:41
+#: tags/2.0.1/includes/admin/views/settings.html.php:18
+#: tags/2.0.1/includes/class-woo-conditional-payments-ruleset.php:41
+#: tags/2.0.0/includes/admin/views/settings.html.php:18
+#: tags/2.0.0/includes/class-woo-conditional-payments-ruleset.php:41
+#: tags/2.1.5/includes/admin/views/settings.html.php:19
+#: tags/2.1.5/includes/class-woo-conditional-payments-ruleset.php:41
+#: includes/admin/views/settings.html.php:19
+#: includes/class-woo-conditional-payments-ruleset.php:41
+msgid "Ruleset"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:27
+#: tags/2.0.2/includes/admin/views/settings.html.php:27
+#: tags/2.1.4/includes/admin/views/settings.html.php:27
+#: tags/2.1.5/includes/admin/views/settings.html.php:27
+msgid "Enabled"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:29
+#: tags/2.0.2/includes/admin/views/settings.html.php:29
+#: tags/2.1.4/includes/admin/views/settings.html.php:29
+#: tags/2.1.5/includes/admin/views/settings.html.php:29
+msgid "Disabled"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:37
+#: tags/2.0.2/includes/admin/views/settings.html.php:37
+#: tags/2.1.4/includes/admin/views/settings.html.php:37
+#: tags/2.0.1/includes/admin/views/settings.html.php:29
+#: tags/2.0.0/includes/admin/views/settings.html.php:29
+#: tags/2.1.5/includes/admin/views/settings.html.php:37
+#: includes/admin/views/settings.html.php:34
+msgid "Edit"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:37
+#: tags/2.0.2/includes/admin/views/settings.html.php:37
+#: tags/2.1.4/includes/admin/views/settings.html.php:37
+#: tags/2.0.1/includes/admin/views/settings.html.php:29
+#: tags/2.0.0/includes/admin/views/settings.html.php:29
+#: tags/2.1.5/includes/admin/views/settings.html.php:37
+#: includes/admin/views/settings.html.php:34
+msgid "Delete"
+msgstr ""
+
+#: trunk/includes/admin/views/settings.html.php:45
+#: tags/2.0.2/includes/admin/views/settings.html.php:45
+#: tags/2.1.4/includes/admin/views/settings.html.php:45
+#: tags/2.0.1/includes/admin/views/settings.html.php:37
+#: tags/2.0.0/includes/admin/views/settings.html.php:37
+#: tags/2.1.5/includes/admin/views/settings.html.php:45
+#: includes/admin/views/settings.html.php:42
+msgid "No rulesets defined yet."
+msgstr ""
+
+#: trunk/includes/class-woo-conditional-payments-post-type.php:26
+#: tags/2.0.2/includes/class-woo-conditional-payments-post-type.php:26
+#: tags/2.1.4/includes/class-woo-conditional-payments-post-type.php:26
+#: tags/2.0.1/includes/class-woo-conditional-payments-post-type.php:26
+#: tags/2.0.0/includes/class-woo-conditional-payments-post-type.php:26
+#: tags/2.1.5/includes/class-woo-conditional-payments-post-type.php:26
+#: includes/class-woo-conditional-payments-post-type.php:26
+msgid "Conditional Payments Rulesets"
+msgstr ""
+
+#: trunk/includes/class-woo-conditional-payments-post-type.php:27
+#: tags/2.0.2/includes/class-woo-conditional-payments-post-type.php:27
+#: tags/2.1.4/includes/class-woo-conditional-payments-post-type.php:27
+#: tags/2.0.1/includes/class-woo-conditional-payments-post-type.php:27
+#: tags/2.0.0/includes/class-woo-conditional-payments-post-type.php:27
+#: tags/2.1.5/includes/class-woo-conditional-payments-post-type.php:27
+#: includes/class-woo-conditional-payments-post-type.php:27
+msgid "Conditional Payments Ruleset"
+msgstr ""
+
+#: trunk/includes/frontend/class-woo-conditional-payments-frontend.php:139
+#: tags/2.0.2/includes/frontend/class-woo-conditional-payments-frontend.php:139
+#: tags/2.1.4/includes/frontend/class-woo-conditional-payments-frontend.php:139
+#: tags/2.1.5/includes/frontend/class-woo-conditional-payments-frontend.php:139
+#: includes/frontend/class-woo-conditional-payments-frontend.php:145
+msgid "Payment method fee"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:41
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:41
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:262
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:41
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:262
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:262
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:37
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:37
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:41
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:262
+#: includes/woo-conditional-payments-utils.php:41
+msgid "greater than"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:42
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:42
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:263
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:42
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:263
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:263
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:38
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:38
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:42
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:263
+#: includes/woo-conditional-payments-utils.php:42
+msgid "greater than or equal"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:43
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:43
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:264
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:43
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:264
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:264
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:39
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:39
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:43
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:264
+#: includes/woo-conditional-payments-utils.php:43
+msgid "less than"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:44
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:44
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:265
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:44
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:265
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:265
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:40
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:40
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:44
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:265
+#: includes/woo-conditional-payments-utils.php:44
+msgid "less than or equal"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:45
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:45
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:266
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:45
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:266
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:266
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:41
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:41
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:45
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:266
+#: includes/woo-conditional-payments-utils.php:45
+msgid "includes"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:46
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:46
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:267
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:46
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:267
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:267
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:42
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:42
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:46
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:267
+#: includes/woo-conditional-payments-utils.php:46
+msgid "includes (exclusive)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:47
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:47
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:268
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:47
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:268
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:268
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:43
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:43
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:47
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:268
+#: includes/woo-conditional-payments-utils.php:47
+msgid "excludes"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:48
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:48
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:269
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:48
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:269
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:269
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:44
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:44
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:48
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:269
+#: includes/woo-conditional-payments-utils.php:48
+msgid "is"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:49
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:49
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:270
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:49
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:270
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:270
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:45
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:45
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:49
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:270
+#: includes/woo-conditional-payments-utils.php:49
+msgid "is not"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:50
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:50
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:271
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:50
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:271
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:271
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:46
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:46
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:50
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:271
+#: includes/woo-conditional-payments-utils.php:50
+msgid "is not empty"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:51
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:51
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:272
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:51
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:272
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:272
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:47
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:47
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:51
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:272
+#: includes/woo-conditional-payments-utils.php:51
+msgid "is empty"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:52
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:52
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:273
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:52
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:273
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:273
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:48
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:48
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:52
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:273
+#: includes/woo-conditional-payments-utils.php:52
+msgid "contains"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:53
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:53
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:274
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:53
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:274
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:274
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:49
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:49
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:53
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:274
+#: includes/woo-conditional-payments-utils.php:53
+msgid "logged in"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:54
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:54
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:275
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:54
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:275
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:275
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:50
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:50
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:54
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:275
+#: includes/woo-conditional-payments-utils.php:54
+msgid "logged out"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:64
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:64
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:164
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:64
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:164
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:164
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:60
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:60
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:64
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:164
+#: includes/woo-conditional-payments-utils.php:80
+msgid "General"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:67
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:67
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:167
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:67
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:167
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:167
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:63
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:63
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:67
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:167
+#: includes/woo-conditional-payments-utils.php:83
+msgid "Order Subtotal"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:71
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:71
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:171
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:71
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:171
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:171
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:67
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:67
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:71
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:171
+#: includes/woo-conditional-payments-utils.php:87
+msgid "Products"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:75
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:75
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:175
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:75
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:175
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:175
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:71
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:71
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:75
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:175
+#: includes/woo-conditional-payments-utils.php:91
+msgid "Shipping Method"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:81
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:81
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:181
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:81
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:181
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:181
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:77
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:77
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:81
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:181
+#: includes/woo-conditional-payments-utils.php:97
+msgid "Billing Address"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:84
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:84
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:184
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:84
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:184
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:184
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:80
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:80
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:84
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:184
+#: includes/woo-conditional-payments-utils.php:100
+msgid "First Name (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:88
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:88
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:188
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:88
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:188
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:188
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:84
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:84
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:88
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:188
+#: includes/woo-conditional-payments-utils.php:104
+msgid "Last Name (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:92
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:92
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:192
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:92
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:192
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:192
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:88
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:88
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:92
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:192
+#: includes/woo-conditional-payments-utils.php:108
+msgid "Company (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:96
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:96
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:196
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:96
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:196
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:196
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:92
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:92
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:96
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:196
+#: includes/woo-conditional-payments-utils.php:112
+msgid "Country (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:100
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:100
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:200
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:100
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:200
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:200
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:96
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:96
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:100
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:200
+#: includes/woo-conditional-payments-utils.php:116
+msgid "Address (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:104
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:104
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:204
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:104
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:204
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:204
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:100
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:100
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:104
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:204
+#: includes/woo-conditional-payments-utils.php:120
+msgid "Address 2 (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:108
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:108
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:208
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:108
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:208
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:208
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:104
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:104
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:108
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:208
+#: includes/woo-conditional-payments-utils.php:124
+msgid "City (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:112
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:112
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:212
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:112
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:212
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:212
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:108
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:108
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:112
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:212
+#: includes/woo-conditional-payments-utils.php:128
+msgid "Postcode (billing)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:118
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:118
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:218
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:118
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:218
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:218
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:114
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:114
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:118
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:218
+#: includes/woo-conditional-payments-utils.php:134
+msgid "Shipping Address"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:121
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:121
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:221
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:121
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:221
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:221
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:117
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:117
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:121
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:221
+#: includes/woo-conditional-payments-utils.php:137
+msgid "First Name (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:125
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:125
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:225
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:125
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:225
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:225
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:121
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:121
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:125
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:225
+#: includes/woo-conditional-payments-utils.php:141
+msgid "Last Name (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:129
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:129
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:229
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:129
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:229
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:229
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:125
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:125
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:129
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:229
+#: includes/woo-conditional-payments-utils.php:145
+msgid "Company (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:133
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:133
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:233
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:133
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:233
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:233
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:129
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:129
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:133
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:233
+#: includes/woo-conditional-payments-utils.php:149
+msgid "Country (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:137
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:137
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:237
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:137
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:237
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:237
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:133
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:133
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:137
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:237
+#: includes/woo-conditional-payments-utils.php:153
+msgid "Address (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:141
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:141
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:241
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:141
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:241
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:241
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:137
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:137
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:141
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:241
+#: includes/woo-conditional-payments-utils.php:157
+msgid "Address 2 (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:145
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:145
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:245
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:145
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:245
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:245
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:141
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:141
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:145
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:245
+#: includes/woo-conditional-payments-utils.php:161
+msgid "City (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:149
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:149
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:249
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:149
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:249
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:249
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:145
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:145
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:149
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:249
+#: includes/woo-conditional-payments-utils.php:165
+msgid "Postcode (shipping)"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:165
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:165
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:165
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:161
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:161
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:165
+#: includes/woo-conditional-payments-utils.php:181
+msgid "Enable payment methods"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:168
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:168
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:168
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:164
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:164
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:168
+#: includes/woo-conditional-payments-utils.php:184
+msgid "Disable payment methods"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:310
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:308
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:308
+#: tags/2.0.1/includes/woo-conditional-payments-utils.php:304
+#: tags/2.0.0/includes/woo-conditional-payments-utils.php:304
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:310
+#: includes/woo-conditional-payments-utils.php:393
+msgid "- All coupons -"
+msgstr ""
+
+#: trunk/includes/woo-conditional-payments-utils.php:413
+#: tags/2.0.2/includes/woo-conditional-payments-utils.php:411
+#: tags/2.1.4/includes/woo-conditional-payments-utils.php:411
+#: tags/2.1.5/includes/woo-conditional-payments-utils.php:413
+#: includes/woo-conditional-payments-utils.php:496
+msgid "- Not taxable -"
+msgstr ""
+
+#: tags/2.0.2/includes/admin/class-woo-conditional-payments-admin.php:80
+#: tags/1.0.1/conditional-payments-for-woocommerce.php:704
+#: tags/1.0.0/conditional-payments-for-woocommerce.php:704
+#: tags/1.0.3/conditional-payments-for-woocommerce.php:704
+#: tags/2.0.1/includes/admin/class-woo-conditional-payments-admin.php:80
+#: tags/2.0.0/includes/admin/class-woo-conditional-payments-admin.php:80
+#: tags/1.0.2/conditional-payments-for-woocommerce.php:704
+msgid "Access denied"
+msgstr ""
+
+#: includes/admin/views/ruleset.html.php:166
+msgid "Match guests by email"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:51
+msgid "Health check"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:57
+msgid "<code>Enable payment methods - %1$s</code> in multiple rulesets"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:66
+msgid "You have <code>Enable payment methods - %1$s</code> in multiple rulesets (%2$s). <code>Enable payment methods</code> will disable the methods if conditions do not pass. It can cause unexpected behaviour when used in multiple rulesets for the same payment method (<code>%1$s</code>)."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:70
+#: includes/admin/views/settings.html.php:105
+msgid "How to fix"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:73
+msgid "Check if you can use <code>Disable payment methods</code> instead. It's usually easier to work with."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:74
+msgid "Remove <code>Enable payment methods - %s</code> from all but one ruleset."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:86
+msgid "<code>%s</code> disabled"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:96
+msgid "You have <code>%1$s - %2$s</code> in %3$s but <code>%2$s</code> is disabled in <a href=\"%4$s\" target=\"_blank\">the settings</a>. Conditional Payments can only process payment methods which are enabled."
+msgstr ""
+
+#: includes/admin/views/settings.html.php:109
+msgid "Enable <code>%s</code> in <a href=\"%s\" target=\"_blank\">the settings</a>"
+msgstr ""
+
+#: includes/admin/views/settings.html.php:116
+msgid "Remove <code>%1$s - %2$s</code> from %3$s."
+msgstr ""
+
+#: includes/woo-conditional-payments-utils.php:227
+msgid "N/A"
+msgstr ""
