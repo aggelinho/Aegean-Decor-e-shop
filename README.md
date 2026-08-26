@@ -10,6 +10,11 @@
 
 > **University Team Project** — developed as part of an e-Business course project. The repository is presented as a portfolio case study and focuses on the e-commerce architecture, catalogue configuration, user experience, store operations, security, accessibility and marketing features implemented in the project.
 
+## Live Demo
+
+🌐 **[Visit Aegean Decor](https://dev-aegean-decor.pantheonsite.io)**
+
+> Hosted on Pantheon.
 ## Overview
 
 **Aegean Decor** is a Greek-language interior-decoration e-shop built with **WordPress** and **WooCommerce** in a local XAMPP environment.
